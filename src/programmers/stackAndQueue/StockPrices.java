@@ -63,10 +63,15 @@ public class StockPrices {
     public static void main(String[] args) {
         StockPrices stockPrices = new StockPrices();
         int[] prices = {1,2,3,2,3};
-        int[] answers1 = {1,3,2,4,2};
+        int[] prices1 = {1,3,2,4,2};
         long start = System.currentTimeMillis();
         stockPrices.solution(prices);
         long end = System.currentTimeMillis();
+
+        System.out.println( "실행 시간 : " + ( end - start )/1000.0 );
+        start = System.currentTimeMillis();
+        stockPrices.solution1(prices1);
+        end = System.currentTimeMillis();
 
         System.out.println( "실행 시간 : " + ( end - start )/1000.0 );
 
