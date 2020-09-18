@@ -1,8 +1,6 @@
-package programmers.Greedy;
+package programmers.greedy;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Stack;
 
 /**
  *
